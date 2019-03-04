@@ -1,0 +1,223 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#features-header1::after 
+{
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 20px;
+    width: 60%;
+}
+
+.wrapper0 
+{background-color: #F5F8FA;
+    padding: 100px 0 50px;
+  }
+.wrapper01
+{
+    margin: 0 auto;
+    padding: 0 2rem;
+    box-sizing: content-box;
+}
+.wrapper1{ 
+max-width: 800px;
+height: 317px;
+margin: auto center;
+align-content: center; 
+text-align: center;
+justify-content: center ; 
+}
+.wrapper2{
+    width: 960px;
+height: 284px ;
+text-align: center; 
+transition: box-shadow 500ms; 
+
+}
+.wrapper3{
+    width: 992px;
+    height: auto;
+justify-content: center;
+}
+.wrapperstyle
+{ background: #ffffff;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    box-shadow: 0 0 11px #eaf0f6;
+    padding: 2em; 
+    display: flex; 
+    border: 0;
+}
+.no_listicon {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+
+.listiconh {
+        background: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat left top;
+        padding-left: 30px;
+        padding-top: 10px; 
+        height: 21px;
+        width: auto;
+        }
+li.listicon {
+    background: url('https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/partners/images/Orange_Checkmark.svg') no-repeat left top;
+    padding-left: 40px;
+    margin-bottom: 10px; 
+    height: 21px;
+    width: auto;
+    }
+.leftalign
+{ text-align: left;  
+
+}
+.font1{ font: inherit;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 2rem;
+    line-height: 1.3125;
+    font-weight: 700; 
+ }    
+ .font2{ font: inherit;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.3125;
+    ; 
+ }    
+ .font3{ font: inherit;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 0.7rem;
+    line-height: 1.3125;
+    font-weight: 700pt; 
+ }    
+ .font4{
+    font: inherit;
+    margin: 0px; 
+    padding: 0px;  
+    font-size: 0.8rem;
+    line-height: 1.3125;
+    font-weight: 700pt;   
+ }
+ /*.orange {
+/* 
+@media (min-width:1000px) {
+    body {
+        background-color: red; 
+    }
+}  */
+.hero1 {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 400px;   
+}
+
+.heightHero {
+    height: inherit;
+}
+
+.hero2 {
+    position: relative;
+    bottom: 300px;
+    z-index: 10;
+}
+
+.imgResizeBig {
+    width: 600px;
+}
+
+.imgResizeSmall {
+    width: 350px;
+    /* height: 400px; */
+    align-self: flex-end;
+}
+.row-green {
+    position: relative;
+    bottom: 500px;
+    background-color: #5DE5D6;
+    height: 170px;
+}
+
+
+  footer ul li a {
+    color: #cbd6e2;
+  }
+
+  footer ul li a:hover {
+    color: #7BCAD8;
+    text-decoration: none;
+  }
+
+.orange {
+    background-color: #ff7a59;
+    border-style: none;
+ }
+.wrapper2:hover 
+{   border-color: #ffffff;
+    border-radius: 10px; 
+    border-right-style: solid; 
+     box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.5);
+}
+.card:hover
+{
+    border-color: #ffffff;
+    border-radius: 10px; 
+    border-right-style: solid; 
+    box-sizing: border-box; 
+     box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.5);
+
+}
+.black {
+    color: black;
+}
+
+.bg-image {
+    background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+.circle {
+    position: absolute;
+    top: -100px;
+    height: 400px;
+    width: 400px;
+    background-color: #ED537D;
+    border-radius: 50%;
+    z-index: -1;
+    overflow: hidden;
+}
+.pic-1 {
+    position: relative;
+}
+.pic-2 {
+    position: relative;
+    top: 270px;
+    max-width: 100%;
+    z-index: 2;
+}
+
+#handshake { 
+    width: 120px;
+    height: 100px;
+}
+
+#features-header::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 14px;
+    width: 100%;
+
+}
+
+.wrap1{
+    height: 500px; 
+    width: 100%; 
+ }
